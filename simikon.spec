@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 SiMiKON intends to be a full featured simulator for simulating MCS51
-family of microcontrollers. It's written in C++ using QT widget set.
+family of microcontrollers. It's written in C++ using Qt widget set.
 It consists of code editor, IHEX disassembler, and several modules:
 registers, sfr, stack, memory, I/O ports, serial, interrupts and
 performance analyzer. It's in early stages of development and buggy as
