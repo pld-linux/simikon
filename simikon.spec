@@ -12,8 +12,6 @@ URL:		http://simikon.sourceforge.net/
 BuildRequires:	qt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 SiMiKON intends to be a full featured simulator for simulating MCS51
