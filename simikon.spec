@@ -2,7 +2,7 @@ Summary:	Microcontrollers MCS51 simulator
 Summary(pl):	Symulator mikrokontrolerów MCS51
 Name:		simikon
 Version:	0.0.8
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		X11/Applications
