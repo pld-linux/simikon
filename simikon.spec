@@ -7,6 +7,7 @@ Epoch:		1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://simikon.sourceforge.net/%{name}-%{version}.tar.bz2
+# Source0-md5:	4c5ad841d4ec5860af22d2d289fdd966
 Patch0:		%{name}-make.patch
 URL:		http://simikon.sourceforge.net/
 BuildRequires:	qt-devel
