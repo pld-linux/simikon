@@ -1,0 +1,30 @@
+diff -urN simikon-0.0.8.org/src/simikon/Makefile simikon-0.0.8/src/simikon/Makefile
+--- simikon-0.0.8.org/src/simikon/Makefile	Fri Mar 30 14:45:39 2001
++++ simikon-0.0.8/src/simikon/Makefile	Fri Mar 30 14:46:44 2001
+@@ -11,11 +11,11 @@
+ CXX	=	g++
+ CFLAGS	=	-pipe -Wall -W -g
+ CXXFLAGS=	-pipe -Wall -W -g
+-INCPATH	=	-I. -I../pixmaps -I../widgets/STabCtl -I./8052 -I./AS31 -I$(QTDIR)/include
++INCPATH	=	-I. -I../pixmaps -I../widgets/STabCtl -I./8052 -I./AS31 -I/usr/X11R6/include/qt
+ LINK	=	g++
+ LFLAGS	=	
+-LIBS	=	$(SUBLIBS) -L$(QTDIR)/lib -L/usr/X11R6/lib -L../widgets -lstabctl -lqt -lXext -lX11 -lm
+-MOC	=	$(QTDIR)/bin/moc
++LIBS	=	$(SUBLIBS) -L/usr/X11R6/lib -L../widgets -lstabctl -lqt -lXext -lX11 -lm
++MOC	=	/usr/X11R6/bin/moc
+ UIC	=	
+ 
+ TAR	=	tar -cf
+diff -urN simikon-0.0.8.org/src/widgets/STabCtl/Makefile simikon-0.0.8/src/widgets/STabCtl/Makefile
+--- simikon-0.0.8.org/src/widgets/STabCtl/Makefile	Fri Mar 30 14:45:39 2001
++++ simikon-0.0.8/src/widgets/STabCtl/Makefile	Fri Mar 30 14:53:39 2001
+@@ -11,7 +11,7 @@
+ CXX	=	g++
+ CFLAGS	=	-pipe -Wall -W -g
+ CXXFLAGS=	-pipe -Wall -W -g
+-INCPATH	=	-I$(QTDIR)/include
++INCPATH	=	-I$(QTDIR)/include/qt
+ AR	=	ar cqs
+ RANLIB	=	
+ MOC	=	$(QTDIR)/bin/moc
