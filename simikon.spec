@@ -1,5 +1,5 @@
 Summary:	Microcontrollers MCS51 simulator
-Summary(pl.UTF-8):   Symulator mikrokontrolerów MCS51
+Summary(pl.UTF-8):	Symulator mikrokontrolerów MCS51
 Name:		simikon
 Version:	0.0.8
 Release:	2
