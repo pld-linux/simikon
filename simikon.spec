@@ -1,5 +1,5 @@
 Summary:	Microcontrollers MCS51 simulator
-Summary(pl):	Symulator mikrokontrolerów MCS51
+Summary(pl.UTF-8):   Symulator mikrokontrolerÃ³w MCS51
 Name:		simikon
 Version:	0.0.8
 Release:	2
@@ -23,11 +23,11 @@ performance analyzer. It's in early stages of development and buggy as
 hell, but it's already a bit useful. Many of this modules lack some
 functionality and need to be rewritten.
 
-%description -l pl
-SiMiKON w zamierzeniu ma byæ pe³nym symulatorem mikrokontrolerów
+%description -l pl.UTF-8
+SiMiKON w zamierzeniu ma byÄ‡ peÅ‚nym symulatorem mikrokontrolerÃ³w
 rodziny MCS51. Zawiera on edytor kodu, disassembler IHEX oraz kilka
-modu³ów: rejestry, sfr, stos, pamiêæ, porty I/O, porty szeregowe,
-przerwania oraz analizator wydajno¶ci.
+moduÅ‚Ã³w: rejestry, sfr, stos, pamiÄ™Ä‡, porty I/O, porty szeregowe,
+przerwania oraz analizator wydajnoÅ›ci.
 
 %prep
 %setup -q
